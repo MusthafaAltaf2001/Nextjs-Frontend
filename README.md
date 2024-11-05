@@ -11,4 +11,3 @@ Tools used
 
 -   ChatGPT
 -   Codeium (Github CoPilot alternative)
--
