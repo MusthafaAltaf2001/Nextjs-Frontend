@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Begin ant desing style overrides */
+.ant-form-item-label label {
+	@apply text-white font-semibold !important;
+}
+
+.ant-tabs-tab-btn {
+	@apply text-white font-semibold !important;
+}
+
+.ant-input-style {
+	@apply bg-gray-700 text-white placeholder:text-gray-50 border-gray-700 !important;
+}
+
+.ant-input {
+	@apply ant-input-style;
+}
+
+.ant-select-selector {
+	@apply ant-input-style;
+}
+
+.ant-select-selection-placeholder {
+	@apply text-gray-50 !important;
+}
+/* End ant desing style overrides */
+
+/* Begin general styles */
+.button {
+	@apply px-3 bg-blue-600 hover:bg-blue-700 transition duration-300 text-white rounded-2xl py-1 w-fit;
+}
+
+.ant-tabs {
+	@apply bg-gray-800 rounded-lg p-6 h-fit max-w-xl min-w-[70%];
+}
+/* End general styles */
+
+@import url("antd/dist/reset.css");
